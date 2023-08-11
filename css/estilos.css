@@ -1,0 +1,31 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(197, 215, 238);
+}
+
+#texto {
+  font-style: italic;
+  font-size: 20px;
+  color: #cf380a;
+  text-align: center;
+  padding: 30px;
+}
+
+.imagen-dario {
+  padding: 30px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.boton {
+  background-color: #2e12a8;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
