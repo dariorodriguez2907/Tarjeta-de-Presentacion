@@ -1,31 +1,62 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgb(197, 215, 238);
-}
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 
-#texto {
-  font-style: italic;
-  font-size: 20px;
-  color: #cf380a;
-  text-align: center;
-  padding: 30px;
-}
+  .card-container {
+    width: 20%;
+  }
 
-.imagen-dario {
+  .card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* position: relative; */
+
+  }
+
+  .card-img-top {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 auto;
+    margin-top: -75px;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  .card-text {
+    font-style: italic;
+    font-size: 1rem;
+    color: #cf380a;
+    margin-bottom: 20px;
+  }
+
+  /* .imagen-dario { 
   padding: 30px;
   width: 300px;
   height: 300px;
   border-radius: 50%;
-}
+}*/
 
-.boton {
-  background-color: #2e12a8;
-  color: white;
-  padding: 12px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 20px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 12px;
-}
+  .boton {
+    background-color: #2e12a8;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
